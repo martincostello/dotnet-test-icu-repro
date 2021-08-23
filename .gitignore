@@ -1,3 +1,5 @@
+.dotnet/
+.dotnetcli/
 .idea/
 .vs/
 bin/
