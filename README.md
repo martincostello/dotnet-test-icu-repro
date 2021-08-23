@@ -1,6 +1,6 @@
 # Repro for dotnet test issue with Microsoft.ICU.ICU4C.Runtime
 
-To replicate the issue, clone the repp and run the following command with version `6.0.100-rc.1.21420.39` of the .NET SDK or later:
+To replicate the issue, clone the repo and run the following command with version `6.0.100-rc.1.21420.39` of the .NET SDK or later:
 
 ```sh
 dotnet test
@@ -8,7 +8,7 @@ dotnet test
 
 ## Expected Behaviour
 
-```sh
+```
 > dotnet test
   Determining projects to restore...
   All projects are up-to-date for restore.
@@ -26,7 +26,7 @@ Passed!  - Failed:     0, Passed:     1, Skipped:     0, Total:     1, Duration:
 
 ## Actual Behaviour
 
-```sh
+```
 > dotnet test
   Determining projects to restore...
   All projects are up-to-date for restore.
